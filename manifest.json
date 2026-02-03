@@ -1,0 +1,9 @@
+{
+    "name": "NewFishNotifier",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "Adds a notification in chat when you catch a fish you have never caught before.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2100"
+    ]
+}
