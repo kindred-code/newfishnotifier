@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace NewFishNotifier
 {
-    [BepInPlugin("com.kindredj.newfishnotifier", "New Fish Notifier", "1.0.1")]
+    [BepInPlugin("com.kindredj.newfishnotifier", "New Fish Notifier", "1.0.3")]
     public class NewFishNotifierPlugin : BaseUnityPlugin
     {
         private void Awake()
@@ -82,4 +82,5 @@ namespace NewFishNotifier
             return Regex.Replace(text, "([a-z])([A-Z])", "$1 $2");
         }
     }
+
 }
